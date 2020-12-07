@@ -94,7 +94,7 @@ int main()
     Model ourModel((char*)"Models/Modelos/silla.obj");
     Model ourModel2((char*)"Models/Modelos/mesa.obj");
     Model ourModel3((char*)"Models/Modelos/prueba2.obj");
-    Model ourModel4((char*)"Models/Fishes/TropicalFish15.obj");
+   // Model ourModel4((char*)"Models/Fishes/TropicalFish15.obj");
 
 
     // Draw in wireframe
@@ -126,7 +126,7 @@ int main()
 
         // Draw the loaded model
         glm::mat4 model(1);
-        model = glm::scale(model, glm::vec3(0.05f, 0.05f, 0.05f));	// It's a bit too big for our scene, so scale it down
+        model = glm::scale(model, glm::vec3(0.02f, 0.02f, 0.02f));	// It's a bit too big for our scene, so scale it down
        model = glm::translate(model, glm::vec3(0.0f, -1.75f, 0.0f)); // Translate it down a bit so it's at the center of the scene
       // model = glm::scale(model, glm::vec3(0.02f, 0.02f, 0.02f));	// It's a bit too big for our scene, so scale it down
        // model = glm::rotate(model, (float)glfwGetTime(), glm::vec3(0.0f, 1.0f, 0.0f));
