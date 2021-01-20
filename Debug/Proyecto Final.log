@@ -1,0 +1,17 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (Práctica 8.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  Proyecto Final.cpp
+C:\Users\beto\source\repos\Proyecto Final\Proyecto Final\modelAnim.h(104,44): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\beto\source\repos\Proyecto Final\Proyecto Final\modelAnim.h(519,24): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\beto\source\repos\Proyecto Final\Proyecto Final\Proyecto Final.cpp(384,30): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\beto\source\repos\Proyecto Final\Proyecto Final\Proyecto Final.cpp(907,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\beto\source\repos\Proyecto Final\Proyecto Final\Proyecto Final.cpp(908,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\beto\source\repos\Proyecto Final\Proyecto Final\Proyecto Final.cpp(912,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\beto\source\repos\Proyecto Final\Proyecto Final\Proyecto Final.cpp(913,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\beto\source\repos\Proyecto Final\Proyecto Final\Proyecto Final.cpp(915,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\beto\source\repos\Proyecto Final\Proyecto Final\Proyecto Final.cpp(916,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+soil2-debug.lib(etc1_utils.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(etc1_utils.obj)' o en 'C:\Users\beto\source\repos\Proyecto Final\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+soil2-debug.lib(image_DXT.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(image_DXT.obj)' o en 'C:\Users\beto\source\repos\Proyecto Final\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+soil2-debug.lib(image_helper.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(image_helper.obj)' o en 'C:\Users\beto\source\repos\Proyecto Final\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+soil2-debug.lib(SOIL2.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(SOIL2.obj)' o en 'C:\Users\beto\source\repos\Proyecto Final\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+  Proyecto Final.vcxproj -> C:\Users\beto\source\repos\Proyecto Final\Debug\Proyecto Final.exe
